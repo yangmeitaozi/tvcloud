@@ -1,0 +1,16 @@
+INFO:root:get information from db
+INFO:root:send channels sucess
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:get channels information from db success
+INFO:root:send json sucess
+2014-08-29 16:54:01,315 - root - INFO - get channels information from db success
+2014-08-29 16:54:01,315 - root - INFO - send json sucess
+2014-09-03 09:24:40,318 - root - INFO - get channels information from db success
+2014-09-03 09:24:40,319 - root - INFO - send json sucess

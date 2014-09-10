@@ -1,0 +1,7 @@
+INFO:root:get programs success
+ERROR:root:get programs failure,chid=['1'],date=['2014-08-27']
+ERROR:root:out of time,get programs failure,chid=['1'],date=['2014-08-27']
+2014-08-26 11:01:09,683 - root - ERROR - out of time,get programs failure,chid=['1'],date=['2014-08-27']
+2014-08-26 11:07:44,109 - root - ERROR - programs did not have,get programs failure,chid=['1'],date=['2014-08-26']
+2014-08-26 11:07:51,357 - root - ERROR - programs did not have,get programs failure,chid=['1'],date=['2014-08-26']
+2014-08-26 11:07:54,361 - root - INFO - get programs success

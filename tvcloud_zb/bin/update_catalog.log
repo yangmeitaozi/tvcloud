@@ -1,0 +1,17 @@
+2014-08-26 15:05:25,049 - root - INFO - start
+2014-08-26 15:12:52,523 - root - INFO - start
+2014-08-26 15:13:44,960 - root - INFO - start
+2014-08-26 15:19:02,424 - root - INFO - start
+2014-08-26 15:24:30,713 - root - INFO - start
+2014-08-26 15:24:32,061 - root - INFO - execute insert,chid=1
+2014-08-26 15:24:32,497 - root - INFO - execute insert,chid=3
+2014-08-26 15:24:32,819 - root - INFO - execute insert,chid=26
+2014-08-26 15:24:33,078 - root - INFO - execute insert,chid=10
+2014-08-26 15:24:33,341 - root - INFO - execute insert,chid=7
+2014-08-26 15:24:33,599 - root - INFO - execute insert,chid=4
+2014-08-26 15:24:33,857 - root - INFO - execute insert,chid=5
+2014-08-26 15:24:34,137 - root - INFO - execute insert,chid=6
+2014-08-26 15:24:34,605 - root - INFO - execute insert,chid=8
+2014-08-26 15:24:34,865 - root - INFO - execute insert,chid=29
+2014-08-26 15:24:35,145 - root - INFO - execute insert,chid=30
+2014-08-26 15:24:35,476 - root - INFO - execute insert,chid=1026

@@ -1,0 +1,84 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="Images/css1/css.css" rel="stylesheet" type="text/css">
+</head>
+<script src=""></script>
+<SCRIPT language=javascript>
+<!--
+var displayBar=true;
+function switchBar(obj){
+	if (displayBar)
+	{
+		parent.frame.cols="0,*";
+		displayBar=false;
+		obj.value="打开左边管理菜单";
+	}
+	else{
+		parent.frame.cols="195,*";
+		displayBar=true;
+		obj.value="关闭左边管理菜单";
+	}
+}
+
+function fullmenu(url){
+	if (url==null) {url = "admin_left.asp";}
+	parent.leftFrame.location = url;
+}
+function add(){
+	//var abc=document.getElementById("obj").options.add(new Option(text,value));
+	
+}
+//-->
+</SCRIPT>
+
+
+
+
+
+<body>
+
+ <table class="table" cellspacing="1" cellpadding="2" width="99%" align="center" border="0">
+    <tr align="center">
+      <th class="biaoti" align="left" colspan="6" height="30" >发布页面
+     </th>
+    </tr>
+
+
+<tr>
+      <th class="bg_tr" align="left" height="25">频道名称
+
+     </th>
+<th class="bg_tr" align="left" height="25">IP地址
+
+     </th>
+<th class="bg_tr" align="left" height="25">资源路径
+    </tr>
+
+
+    <tr >
+      <td class="td_bg" width="25%" height="23" id="obj">
+      <select name="cname" >
+         <option value="">$ </option>
+      </select>
+      </td>
+      <td class="td_bg" width="25%" height="23">
+      <select name="serverip" >
+         <option value=""></option>
+      </select>
+      </td>
+	<td class="td_bg" width="25%" height="23">
+    <select name="storagepath" >
+         <option value=""></option>
+      </select></td>
+	
+    </tr>  
+    </th> 
+    </table>  
+    <form action="" method="" id="form1">
+    <input type="submit" value="提交按键" onClick="">
+    </form>
+</p>
+</body>
+</html>

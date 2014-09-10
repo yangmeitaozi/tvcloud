@@ -1,0 +1,28 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style type="text/css">
+.ziti{
+	font:"仿宋";
+	font-size:24px;
+	text-align:center;
+	float:left;
+	
+}
+</style>
+
+
+
+<body>  
+    <div style="border:#000 dotted 1px; width:90%; margin-left:50px"> 
+      <center><h1 style="background-color:#06F">欢迎使直播回看数据管理系统</h1></center>
+      <div style="height:300px; padding-top:120px; padding-left:300px; background-color:#09F;">
+        <div name="" id="" class="ziti" style="padding:150px"><a href="fabu.html"> 发布</a></div>
+        <div name="" id="" class="ziti" style="padding:150px"><a href="bianji.html">编辑</a></div>
+      </div>
+     
+    </div>
+</body>
+</html>

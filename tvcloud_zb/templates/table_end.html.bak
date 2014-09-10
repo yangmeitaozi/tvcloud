@@ -1,0 +1,11 @@
+</table>
+<form action=$url method="post" id="myform">
+   <input id="chid" type="hidden" name="chid" />
+   <input id="serverip" type="hidden" name="serverip" />
+   <input id="storagepath" type="hidden" name="storagepath" />
+   <input id="status" type="hidden" name="status" />
+   
+   <center><input type=submit id="submit" value=$delt name="submit" disabled="disabled" >&nbsp;&nbsp;&nbsp;<input type="submit" id="submit" value=$rest name="submit" disabled="disabled"></center>
+</form>
+</body>
+<html>

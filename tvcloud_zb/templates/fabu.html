@@ -1,0 +1,47 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../Images/css1/css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	margin-left:-5;
+	margin-top:-17
+}
+</style>
+</head>
+<script src=""></script>
+<SCRIPT language=javascript>
+<!--
+var displayBar=true;
+function switchBar(obj){
+	if (displayBar)
+	{
+		parent.frame.cols="0,*";
+		displayBar=false;
+		obj.value="打开左边管理菜单";
+	}
+	else{
+		parent.frame.cols="195,*";
+		displayBar=true;
+		obj.value="关闭左边管理菜单";
+	}
+}
+
+function fullmenu(url){
+	if (url==null) {url = "admin_left.asp";}
+	parent.leftFrame.location = url;
+}
+
+//-->
+</SCRIPT>
+
+<body>
+	<table class="table" cellspacing="1" cellpadding="2" width="99%" align="center" border="0">
+		<tr align="center">
+ 		 	<th class="biaoti" align="left" colspan="6" height="40" >发布页面 </th>
+		</tr>
+		<tr>
+  			<th class="bg_tr" align="center" height="25">频道名称</th>
+  			<th class="bg_tr" align="center" height="25">频道分类</th>            
+		</tr>

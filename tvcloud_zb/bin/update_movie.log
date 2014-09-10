@@ -1,0 +1,328 @@
+2014-08-26 14:18:33,309 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 14:18:34,536 - root - INFO - get data from tvsou OK
+2014-08-26 14:18:55,630 - root - INFO - update db success
+2014-08-26 14:18:55,661 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 14:18:56,200 - root - INFO - get data from tvsou OK
+2014-08-26 14:19:08,519 - root - INFO - update db success
+2014-08-26 14:19:08,539 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 14:19:09,193 - root - INFO - get data from tvsou OK
+2014-08-26 14:19:12,892 - root - INFO - update db success
+2014-08-26 14:19:12,971 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 14:19:13,427 - root - INFO - no action update movie
+2014-08-26 14:27:14,898 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 14:27:15,128 - root - INFO - no action update movie
+2014-08-26 14:42:44,176 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:44,479 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:44,772 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:45,032 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:45,282 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:45,509 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:45,730 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:45,961 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:46,170 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:46,372 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:42:46,581 - root - INFO - execute insert,chid=2014-08-24
+2014-08-26 14:50:13,273 - root - INFO - start
+2014-08-26 14:51:56,269 - root - INFO - start
+2014-08-26 14:56:22,618 - root - INFO - start
+2014-08-26 14:58:21,236 - root - INFO - start
+2014-08-26 14:59:23,801 - root - INFO - startaaaa
+2014-08-26 15:26:06,246 - root - INFO - start
+2014-08-26 15:26:08,638 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:26:09,696 - root - INFO - get data from tvsou OK
+2014-08-26 15:26:19,536 - root - INFO - update db success
+2014-08-26 15:26:19,772 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:26:20,434 - root - INFO - get data from tvsou OK
+2014-08-26 15:26:29,611 - root - INFO - update db success
+2014-08-26 15:26:29,743 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:26:30,102 - root - INFO - get data from tvsou OK
+2014-08-26 15:26:38,186 - root - INFO - update db success
+2014-08-26 15:26:38,285 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:26:38,657 - root - INFO - get data from tvsou OK
+2014-08-26 15:26:52,551 - root - INFO - update db success
+2014-08-26 15:26:52,661 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:26:53,345 - root - INFO - get data from tvsou OK
+2014-08-26 15:26:58,677 - root - INFO - update db success
+2014-08-26 15:26:58,752 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:26:59,223 - root - INFO - get data from tvsou OK
+2014-08-26 15:27:09,697 - root - INFO - update db success
+2014-08-26 15:27:09,778 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:27:10,190 - root - INFO - get data from tvsou OK
+2014-08-26 15:27:19,898 - root - INFO - update db success
+2014-08-26 15:27:19,963 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:27:20,338 - root - INFO - get data from tvsou OK
+2014-08-26 15:27:28,296 - root - INFO - update db success
+2014-08-26 15:27:28,365 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:27:28,887 - root - INFO - get data from tvsou OK
+2014-08-26 15:27:50,059 - root - INFO - update db success
+2014-08-26 15:27:50,137 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:27:50,539 - root - INFO - get data from tvsou OK
+2014-08-26 15:28:03,405 - root - INFO - update db success
+2014-08-26 15:28:03,453 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:28:03,822 - root - INFO - get data from tvsou OK
+2014-08-26 15:28:07,147 - root - INFO - update db success
+2014-08-26 15:28:07,171 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:28:07,509 - root - INFO - no action update movie
+2014-08-26 15:28:37,578 - root - INFO - start
+2014-08-26 15:28:41,059 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:28:41,638 - root - INFO - no action update movie
+2014-08-26 15:29:11,660 - root - INFO - start
+2014-08-26 15:29:14,510 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:29:14,964 - root - INFO - no action update movie
+2014-08-26 15:29:44,973 - root - INFO - start
+2014-08-26 15:29:48,533 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:29:48,888 - root - INFO - no action update movie
+2014-08-26 15:30:18,901 - root - INFO - start
+2014-08-26 15:30:22,561 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:30:24,019 - root - INFO - no action update movie
+2014-08-26 15:30:54,089 - root - INFO - start
+2014-08-26 15:30:57,456 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:30:57,789 - root - INFO - no action update movie
+2014-08-26 15:31:27,855 - root - INFO - start
+2014-08-26 15:31:35,151 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:31:35,960 - root - INFO - no action update movie
+2014-08-26 15:32:06,010 - root - INFO - start
+2014-08-26 15:32:09,448 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:32:09,911 - root - INFO - no action update movie
+2014-08-26 15:32:39,920 - root - INFO - start
+2014-08-26 15:32:43,247 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:32:43,796 - root - INFO - no action update movie
+2014-08-26 15:33:13,851 - root - INFO - start
+2014-08-26 15:33:17,292 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:33:17,747 - root - INFO - no action update movie
+2014-08-26 15:33:47,759 - root - INFO - start
+2014-08-26 15:33:51,049 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:33:51,519 - root - INFO - no action update movie
+2014-08-26 15:34:21,530 - root - INFO - start
+2014-08-26 15:34:24,674 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:34:25,223 - root - INFO - no action update movie
+2014-08-26 15:34:55,233 - root - INFO - start
+2014-08-26 15:34:58,348 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:34:58,811 - root - INFO - no action update movie
+2014-08-26 15:35:28,822 - root - INFO - start
+2014-08-26 15:35:31,938 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:35:32,335 - root - INFO - no action update movie
+2014-08-26 15:36:02,400 - root - INFO - start
+2014-08-26 15:36:05,948 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:36:06,407 - root - INFO - no action update movie
+2014-08-26 15:36:36,420 - root - INFO - start
+2014-08-26 15:36:39,743 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:36:40,141 - root - INFO - no action update movie
+2014-08-26 15:37:10,151 - root - INFO - start
+2014-08-26 15:37:13,219 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:37:14,460 - root - INFO - no action update movie
+2014-08-26 15:37:44,529 - root - INFO - start
+2014-08-26 15:37:47,720 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:37:48,078 - root - INFO - no action update movie
+2014-08-26 15:38:18,088 - root - INFO - start
+2014-08-26 15:38:21,278 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:38:32,654 - root - INFO - no action update movie
+2014-08-26 15:39:02,673 - root - INFO - start
+2014-08-26 15:39:05,444 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:39:05,802 - root - INFO - no action update movie
+2014-08-26 15:39:35,868 - root - INFO - start
+2014-08-26 15:39:38,970 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:39:39,428 - root - INFO - no action update movie
+2014-08-26 15:40:09,438 - root - INFO - start
+2014-08-26 15:40:12,526 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:40:13,428 - root - INFO - no action update movie
+2014-08-26 15:40:43,440 - root - INFO - start
+2014-08-26 15:40:46,493 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:40:46,846 - root - INFO - no action update movie
+2014-08-26 15:41:16,898 - root - INFO - start
+2014-08-26 15:41:19,326 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:41:19,697 - root - INFO - no action update movie
+2014-08-26 15:41:49,717 - root - INFO - start
+2014-08-26 15:41:52,214 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:41:53,092 - root - INFO - no action update movie
+2014-08-26 15:42:23,154 - root - INFO - start
+2014-08-26 15:42:25,648 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:42:25,914 - root - INFO - no action update movie
+2014-08-26 15:42:55,921 - root - INFO - start
+2014-08-26 15:42:58,357 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:42:58,798 - root - INFO - no action update movie
+2014-08-26 15:43:28,825 - root - INFO - start
+2014-08-26 15:43:31,329 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:43:31,905 - root - INFO - no action update movie
+2014-08-26 15:44:01,913 - root - INFO - start
+2014-08-26 15:44:04,440 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:44:04,782 - root - INFO - no action update movie
+2014-08-26 15:44:34,839 - root - INFO - start
+2014-08-26 15:44:37,676 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:44:38,009 - root - INFO - no action update movie
+2014-08-26 15:45:08,020 - root - INFO - start
+2014-08-26 15:45:11,144 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:45:11,509 - root - INFO - no action update movie
+2014-08-26 15:45:41,523 - root - INFO - start
+2014-08-26 15:45:44,359 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:45:44,710 - root - INFO - no action update movie
+2014-08-26 15:46:14,720 - root - INFO - start
+2014-08-26 15:46:17,476 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:46:17,940 - root - INFO - no action update movie
+2014-08-26 15:46:47,948 - root - INFO - start
+2014-08-26 15:46:50,348 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:46:50,595 - root - INFO - no action update movie
+2014-08-26 15:47:20,605 - root - INFO - start
+2014-08-26 15:47:23,118 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:47:23,555 - root - INFO - no action update movie
+2014-08-26 15:47:53,608 - root - INFO - start
+2014-08-26 15:47:56,112 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:47:56,434 - root - INFO - no action update movie
+2014-08-26 15:48:26,494 - root - INFO - start
+2014-08-26 15:48:28,944 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp
+2014-08-26 15:48:29,293 - root - INFO - no action update movie
+2014-08-26 15:49:07,792 - root - INFO - start
+2014-08-26 15:49:10,631 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:49:10,973 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:49:40,999 - root - INFO - start
+2014-08-26 15:49:45,786 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:49:46,062 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:50:16,072 - root - INFO - start
+2014-08-26 15:50:19,589 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:50:20,118 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:50:50,132 - root - INFO - start
+2014-08-26 15:50:52,634 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:50:53,128 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:51:23,176 - root - INFO - start
+2014-08-26 15:51:25,888 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:51:26,236 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:51:56,250 - root - INFO - start
+2014-08-26 15:51:59,075 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:51:59,457 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:52:15,342 - root - INFO - start
+2014-08-26 15:52:21,523 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:52:22,198 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:52:52,207 - root - INFO - start
+2014-08-26 15:52:53,414 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:52:53,645 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:53:23,661 - root - INFO - start
+2014-08-26 15:53:24,618 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:53:24,963 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:53:54,980 - root - INFO - start
+2014-08-26 15:53:55,812 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:53:56,155 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:54:26,165 - root - INFO - start
+2014-08-26 15:54:27,010 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:54:27,354 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:54:57,391 - root - INFO - start
+2014-08-26 15:54:58,204 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:54:58,548 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:55:28,568 - root - INFO - start
+2014-08-26 15:55:29,401 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:55:29,857 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:55:59,871 - root - INFO - start
+2014-08-26 15:56:00,717 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:56:01,173 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:56:31,187 - root - INFO - start
+2014-08-26 15:56:32,023 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:56:32,368 - root - INFO - no action update movie,chid=1026
+2014-08-26 15:57:02,433 - root - INFO - start
+2014-08-26 15:57:03,269 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-08-26
+2014-08-26 15:57:03,532 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:39:13,022 - root - INFO - start
+2014-09-01 09:39:14,207 - root - INFO - execute insert,chid=29
+2014-09-01 09:39:14,348 - root - INFO - execute insert,chid=30
+2014-09-01 09:39:14,473 - root - INFO - execute insert,chid=2014-08-26
+2014-09-01 09:39:14,612 - root - INFO - execute insert,chid=7
+2014-09-01 09:39:14,753 - root - INFO - execute insert,chid=3
+2014-09-01 09:39:14,894 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=3&date=2014-09-01
+2014-09-01 09:39:15,440 - root - INFO - get data from tvsou OK
+2014-09-01 09:39:22,959 - root - INFO - update db success
+2014-09-01 09:39:23,006 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=7&date=2014-09-01
+2014-09-01 09:39:23,832 - root - INFO - get data from tvsou OK
+2014-09-01 09:39:32,865 - root - INFO - update db success
+2014-09-01 09:39:32,881 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=29&date=2014-09-01
+2014-09-01 09:39:33,177 - root - INFO - get data from tvsou OK
+2014-09-01 09:39:44,440 - root - INFO - update db success
+2014-09-01 09:39:44,471 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=30&date=2014-09-01
+2014-09-01 09:39:47,062 - root - INFO - get data from tvsou OK
+2014-09-01 09:39:50,040 - root - INFO - update db success
+2014-09-01 09:39:50,088 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:39:50,586 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:40:20,664 - root - INFO - start
+2014-09-01 09:40:21,053 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:40:21,349 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:40:51,427 - root - INFO - start
+2014-09-01 09:40:51,832 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:40:52,706 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:41:22,720 - root - INFO - start
+2014-09-01 09:41:23,266 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:41:24,779 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:41:54,857 - root - INFO - start
+2014-09-01 09:41:55,355 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:41:55,637 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:42:25,713 - root - INFO - start
+2014-09-01 09:42:26,602 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:42:26,852 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:42:56,884 - root - INFO - start
+2014-09-01 09:42:57,382 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:42:58,006 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:43:28,007 - root - INFO - start
+2014-09-01 09:43:28,523 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:43:28,694 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:43:58,772 - root - INFO - start
+2014-09-01 09:44:01,657 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:44:02,032 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:44:32,108 - root - INFO - start
+2014-09-01 09:44:32,638 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:44:32,811 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:45:02,888 - root - INFO - start
+2014-09-01 09:45:03,401 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:45:03,713 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:45:33,790 - root - INFO - start
+2014-09-01 09:45:34,336 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:45:34,586 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:46:04,664 - root - INFO - start
+2014-09-01 09:46:05,178 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:46:05,427 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:46:35,451 - root - INFO - start
+2014-09-01 09:46:35,907 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:46:36,144 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:47:06,154 - root - INFO - start
+2014-09-01 09:47:06,661 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:47:06,892 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:47:36,904 - root - INFO - start
+2014-09-01 09:47:37,391 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:47:37,732 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:48:07,746 - root - INFO - start
+2014-09-01 09:48:08,234 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:48:08,480 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:48:38,538 - root - INFO - start
+2014-09-01 09:48:39,013 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:48:39,354 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:49:09,394 - root - INFO - start
+2014-09-01 09:49:09,880 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:49:10,111 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:49:40,164 - root - INFO - start
+2014-09-01 09:49:40,651 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:49:40,992 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:50:11,038 - root - INFO - start
+2014-09-01 09:50:11,542 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:50:12,344 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:50:42,405 - root - INFO - start
+2014-09-01 09:50:43,045 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:50:43,607 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:51:13,661 - root - INFO - start
+2014-09-01 09:51:14,145 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:51:14,598 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:51:44,651 - root - INFO - start
+2014-09-01 09:51:45,138 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:51:45,923 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:52:15,976 - root - INFO - start
+2014-09-01 09:52:16,470 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:52:17,030 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:52:47,082 - root - INFO - start
+2014-09-01 09:52:47,555 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:52:47,786 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:53:17,796 - root - INFO - start
+2014-09-01 09:53:20,562 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:53:21,546 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:53:51,575 - root - INFO - start
+2014-09-01 09:53:53,805 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:53:54,079 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:54:24,121 - root - INFO - start
+2014-09-01 09:54:24,601 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:54:24,822 - root - INFO - no action update movie,chid=1026
+2014-09-01 09:54:54,874 - root - INFO - start
+2014-09-01 09:54:57,664 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1026&date=2014-09-01
+2014-09-01 09:54:57,898 - root - INFO - no action update movie,chid=1026
