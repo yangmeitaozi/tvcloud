@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<script type=text/javascript>
+var xmlHttp=null;
+
+function showUser(str)
+{ 
+alert('ddddd');
+xmlHttp=GetXmlHttpObject();
+if (xmlHttp==null)
+ {
+ alert ("Browser does not support HTTP Request");
+ return;
+ }
+var url="http://127.0.0.1:8080/cgi-bin/generate_data.py?chid=1";
+alert(url)
+xmlHttp.onreadystatechange=stateChanged ;
+xmlHttp.open("GET",url,true);
+alert(xmlHttp.responseText );
+xmlHttp.send(null);
+}
+
+function stateChanged() 
+{ 
+if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete")
+ { 
+ document.getElementById("txtHint").innerHTML=xmlHttp.responseText ;
+ } 
+}
+
+function GetXmlHttpObject()
+{
+var xmlHttp=null;
+try
+ {
+ // Firefox, Opera 8.0+, Safari
+ xmlHttp=new XMLHttpRequest();
+ }
+catch (e)
+ {
+ //Internet Explorer
+ try
+  {
+  xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+  }
+ catch (e)
+  {
+  xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+ }
+return xmlHttp;
+}
+</script>
+</head>
+<body>
+
+<form> 
+Select a User:
+<select name="users" onchange="showUser(this.value)">
+<option value="1">Peter Griffin</option>
+<option value="2">Lois Griffin</option>
+<option value="3">Glenn Quagmire</option>
+<option value="4">Joseph Swanson</option>
+</select>
+</form>
+
+<p>
+<div id="txtHint"><b>User info will be listed here.</b></div>
+</p>
+
+</body>
+</html>

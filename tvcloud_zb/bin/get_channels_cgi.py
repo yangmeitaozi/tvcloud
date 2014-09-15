@@ -15,8 +15,10 @@ sys.setdefaultencoding('utf-8')
 
 def get_channelInfo_from_store():
     m1 = """SELECT live_channel.chid,live_channel.sort_id,tvs_channel.chname,"""
-    m2 = """live_logo.ip,live_logo.path,live_url.live_ip,live_url.live_path from live_channel,tvs_channel,"""
-    m3 = """live_url,live_logo where live_channel.chid=tvs_channel.chid and live_channel.chid=live_logo.chid and live_channel.chid = live_url.chid order by live_channel.chid;"""    
+    #m2 = """live_logo.ip,live_logo.path,live_url.live_ip,live_url.live_path from live_channel,tvs_channel,"""
+    #m3 = """live_url,live_logo where live_channel.chid=tvs_channel.chid and live_channel.chid=live_logo.chid and live_channel.chid = live_url.chid order by live_channel.chid;"""  
+    m2 = """live_server.live_ip,live_url.live_path from live_channel,tvs_channel,"""
+    m3 = """live_url,live_server where live_channel.chid=tvs_channel.chid and live_channel.chid = live_url.chid and live_url.serverid=live_server.serverid order by live_channel.chid;"""
     message = m1+m2+m3
     #print message
     conn = mysql.connect()
@@ -51,9 +53,9 @@ if key_data:
     for each_cid in results:        
         datas["channelid"] = each_cid[0]        
         datas["channelname"] = each_cid[2]        
-        datas['logoip'] = each_cid[3]+each_cid[4]
-        tail = each_cid[6]+'/now/live.m3u8'
-        datas["live_uri"]= each_cid[5]+tail
+        datas['logoip'] = ''#each_cid[3]+each_cid[4]
+        tail = each_cid[4]+'/now/live.m3u8'
+        datas["live_uri"]= each_cid[3]+tail
         datas['sortid'] = each_cid[1]
         #if each_cid[1] == 1:            
         #    ys.append(datas)                      

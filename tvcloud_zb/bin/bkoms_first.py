@@ -10,13 +10,21 @@ update_list()
 myobj = mysql_loging()
 myobj.update_channel_list
 
+sqlobj = mysql.mysqldb()
+dbname = sqlobj.db_name
+print 'dabase name ',dbname
+print '**************************'
 try:
     conn = mysql.connect()
     cursor = conn.cursor()   
     cursor.execute("SET NAMES utf8")
     conn.commit()   
-    cursor.execute("insert into chmsdb.live_url (live_path,status) SELECT storage_addr,chid FROM tvcloud_zb.live_server;")
+    dbnames = dbname + '.' + 'live_url'
+    sqlmess = """insert into %s (chid,live_path) select sortnumber,bsstype from epgdb_live.publish_catalog where catalogcode='channel' """ % dbnames
+    #print sqlmess
+    cursor.execute(sqlmess)   
     conn.commit()
     conn.close()
+
 except:
     pass

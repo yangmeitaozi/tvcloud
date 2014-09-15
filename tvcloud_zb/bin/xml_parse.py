@@ -45,9 +45,7 @@ def parse_tvsou_updatelog():
         try:
                 s=urllib2.urlopen(urls)
                 ss=s.read()
-        except urllib2.URLError,SocketError as e:
-                if e.errno != errno.ECONNRESET:
-                        raise 
+        except urllib2.URLError,SocketError:
                 return
         try:
                 with open(filename,'w') as fd:

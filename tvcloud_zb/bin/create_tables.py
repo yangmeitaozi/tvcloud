@@ -32,7 +32,7 @@ def create_tables():
     livechannel_fk_live_urlid = """alter table live_channel add constraint live_url_urlid_fk foreign key (live_urlid) references live_url (live_urlid)"""
               
     
-    live_url = """ create table live_url(live_urlid int(11) not null auto_increment primary key,chid int(11),serverid int(10),port int(10),live_path varchar(50),status int(11))"""
+    live_url = """ create table live_url(live_urlid int(11) not null auto_increment primary key,chid int(11),serverid int(10),port int(10),live_path varchar(150),status int(11))"""
     
     live_logo = """ create table live_logo(logoid int(11) not null auto_increment primary key,chid int(11),serverid int(10),port varchar(10),path varchar(30),status int(10))"""
                  
@@ -41,7 +41,7 @@ def create_tables():
     logo_fk_sid = """alter table live_logo add constraint live_logo_path_id_fk foreign key(serverid) references live_server(serverid)"""
     
     
-    live_server = """create table live_server (serverid int(11) not null auto_increment primary key,live_ip varchar(25))"""
+    live_server = """create table live_server (serverid int(11) not null auto_increment primary key,live_ip varchar(50))"""
     live_status = """create table live_status (statusid int(11) not null auto_increment primary key,sname varchar(255))"""
     #live_catalog
     live_catalog = """create table live_catalog (catalogid int(11) not null auto_increment primary key,chid int(11),date varchar(20),status int(11))"""
@@ -215,23 +215,23 @@ def update_list():
     cursor.execute("insert into live_server values(0,'http://zhibo.tv-cloud.cn')")
     sorts = [(1,u"央视".encode('utf-8')),(2,u"卫视".encode('utf-8')),(3,u"地方".encode('utf-8'))]
     status = [(0,u"发布".encode('utf-8')),(1,u"未发布".encode('utf-8')),(2,u"删除".encode('utf-8'))]
-    for k in range(3):
-        for i in range(3):
-            sqli = """insert into live_sort values(%s,'%s')""" % sorts[i] 
-            try:
-                cursor.execute(sqli)
-                conn.commit()    
-            except:
-                pass
-        
-        for n in range(3):
-            sqln = """insert into live_status values(%s,'%s')""" % status[n]
-            try:
-                print sqln
-                cursor.execute(sqln)
-                conn.commit()
-            except:
-                pass        
+    
+    for i in range(3):
+        sqli = """insert into live_sort values(%s,'%s')""" % sorts[i] 
+        try:
+            cursor.execute(sqli)
+            conn.commit()    
+        except:
+            pass
+    
+    for n in range(3):
+        sqln = """insert into live_status values(%s,'%s')""" % status[n]
+        try:
+            print sqln
+            cursor.execute(sqln)
+            conn.commit()
+        except:
+            pass        
     conn.close()
     
 #if __name__=='__main__':

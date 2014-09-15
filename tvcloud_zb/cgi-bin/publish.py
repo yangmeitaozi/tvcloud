@@ -32,16 +32,16 @@ for each in catagorydic:
     allcatagory[each[0]] = each[1].encode('utf-8')
     
 print(yate.start_response())
-print(yate.render_publish())
-print(yate.start_form("edit.py"))    
+print(yate.render_publish(urls="edit.py"))
+#print(yate.start_form("edit.py"))    
 
 
 print(yate.select('mix'))
-print(yate.select_list_n(allchannel))
+print(yate.select_list_new(allchannel))
 print(yate.end_select())
 
 print(yate.select('sortid'))
-print(yate.select_list_n(allcatagory))
+print(yate.select_list_new(allcatagory))
 print(yate.end_select())
 
 

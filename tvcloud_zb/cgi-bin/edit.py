@@ -50,7 +50,7 @@ try:
         mix = form_data['mix'].value
         cid = int(mix.split(' ').pop(0))
         urlid = int(mix.split(' ').pop(1))
-        print urlid
+        #print urlid
     #logoid = form_data['logo'].value
     if "sortid" in form_data:
         sortid = form_data['sortid'].value
@@ -64,9 +64,16 @@ cursor = conn.cursor()
 createtime = time.strftime("%H:%M:%S",time.localtime())
 date = time.strftime("%Y-%m-%d",time.localtime())
 
-message = """insert into live_channel (chid,statusid,createtime,date,sort_id) values(%s,%s,'%s','%s',%s) """% (cid,0,createtime,date,sortid)
-message0 = """insert into live_channel (chid,statusid,createtime,date,sort_id,live_urlid) values(%s,%s,'%s','%s',%s,%s) """% (cid,0,createtime,date,sortid,urlid)
+get_statusid = """select statusid from live_status where sname='%s'""" %  u"发布".encode('utf-8')
+cursor.execute(get_statusid)
+stuid = cursor.fetchall()
+statusid=''
+if stuid != ():
+    statusid = stuid[0][0]
+message = """insert into live_channel (chid,statusid,createtime,date,sort_id) values(%s,%s,'%s','%s',%s) """% (cid,statusid,createtime,date,sortid)
+message0 = """insert into live_channel (chid,statusid,createtime,date,sort_id,live_urlid) values(%s,%s,'%s','%s',%s,%s) """% (cid,statusid,createtime,date,sortid,urlid)
 info = """select chid from live_channel """
+
 #upd_live_url = """update live_url set serverid=%s,chid=%s where live_urlid=%s""" % (serverid,cid,urlid)
 
 
@@ -115,15 +122,25 @@ if dele_info and subinfo==u'删除'.encode('utf-8') :
 
 
 if subinfo==u'修改'.encode('utf-8'):
-    #print 'reset'        
-    m1 = """insert into live_server (live_ip) values ('%s'); """ % (sip,)  
-    cursor.execute(m1)    
-    conn.commit()
-    cursor.execute("""select serverid from live_server where live_ip='%s'""" % (sip,))
-    conn.commit()
-    serverid_n = cursor.fetchall()
-    #print serverid_n[0][0] 
-    cursor.execute("""update  live_url set live_path='%s',serverid=%s,status=0 where chid=%s""" % (spath,serverid_n[0][0],chid) )   
+    #print 'reset'       
+    cursor.execute("""select serverid from live_server where live_ip='%s'""" % sip)
+    sidresult = cursor.fetchall()
+    mysid =''
+    if sidresult != ():     
+        mysid = sidresult[0][0]    
+        
+    else:   
+        m1 = """insert into live_server (live_ip) values ('%s'); """ % (sip,)  
+        #print m1
+        cursor.execute(m1)    
+        conn.commit()
+        cursor.execute("""select serverid from live_server where live_ip='%s'""" % (sip,))
+        conn.commit()        
+        sidresult = cursor.fetchall()
+        mysid = sidresult[0][0]
+   
+        
+    cursor.execute("""update  live_url set live_path='%s',serverid=%s,status=0 where chid=%s""" % (spath,mysid,chid) )   
     conn.commit()    
     
 conn.close()

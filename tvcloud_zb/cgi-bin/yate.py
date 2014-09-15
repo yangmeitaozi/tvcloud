@@ -56,7 +56,11 @@ def para(para_text):
 
 def select(name):
     #return('<select name="'+ name +'" >')
-    return(' <td align="center" class="td_bg" width="25%" height="15" id="obj"><select name="'+ name +'" >')
+    return(' <td align="center" class="td_bg" width="25%" height="15" id="obj"><select name="'+ name +'" id="'+ name +'">')
+
+def select_addr(name):
+    #return('<select name="'+ name +'" >')
+    return(' <td align="center" class="td_bg" width="25%" height="15" id="obj"><select id="'+ name +'" name="'+ name +'"onchange="showUser(this.value)" >')
 
 def end_select():
     return('</select>')
@@ -133,19 +137,19 @@ def render_home():
         hfs = Template(hf_text)
         return(hfs.substitute())
     
-def render_publish():
+def render_publish(urls):
     fn = BASE_DIR + '/templates/fabu.html'
     with open(fn) as ff:
         ff_text = ff.read()
         fs = Template(ff_text)
-        return(fs.substitute())
+        return(fs.substitute(the_url=urls))
     
-def render_addrpublish():
+def render_addrpublish(urls):
     fn = BASE_DIR + '/templates/addrpublish.html'
     with open(fn) as ff:
         ff_text = ff.read()
         fs = Template(ff_text)
-        return(fs.substitute())
+        return(fs.substitute(the_url=urls))
     
 def render_edit():
     fn = BASE_DIR + '/templates/bianji.html'
@@ -174,6 +178,13 @@ def render_temp_top():
         return ( tts.substitute())
 def render_temp_right():
     fn = BASE_DIR + '/temp/right.html'
+    with open(fn) as tt:
+        tt_text = tt.read()
+        tts = Template(tt_text)
+        return ( tts.substitute())
+
+def generata_data():
+    fn = BASE_DIR + '/templates/ajaxmysql.html'
     with open(fn) as tt:
         tt_text = tt.read()
         tts = Template(tt_text)

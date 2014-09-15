@@ -75,7 +75,8 @@ def update_catalog(date=''):
     cid = ''
     if date=='':
         date = time.strftime("%Y-%m-%d",time.localtime())
-    ms = """select chid from live_channel where statusid=0 """
+    ms = """select live_channel.chid from live_channel,live_status where live_channel.statusid=live_status.statusid and live_status.sname='%s'""" % u'发布'.encode('utf-8')
+    print ms
     conn = mysql.connect()
     cursor = conn.cursor()
     cursor.execute(ms)
