@@ -14,7 +14,7 @@ conn = mysql.connect()
 cur = conn.cursor()
 
 cur.execute("""select live_url.chid,live_url.live_urlid,tvs_channel.chname from tvs_channel,
-live_url where tvs_channel.status=0 and live_url.status=0 and live_url.chid=tvs_channel.chid order by tvs_channel.chid""")
+live_url where tvs_channel.status=0 and live_url.status=0 and live_url.chid=tvs_channel.chid order by live_url.chid ASC""")
 dic = cur.fetchall()
 apd = ''
 for each in dic:

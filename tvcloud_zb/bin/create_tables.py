@@ -47,7 +47,7 @@ def create_tables():
     live_catalog = """create table live_catalog (catalogid int(11) not null auto_increment primary key,chid int(11),date varchar(20),status int(11))"""
     live_catalog_fk = """alter table live_catalog add constraint live_channel_chid_fk foreign key(chid) references live_channel(chid)"""
     #live_movie
-    live_movie = """create table live_movie (programid int(11) not null auto_increment primary key,catalogid int(11),chid int(11),program_name varchar(255),date varchar(20),start_time varchar(20),timelength varchar(20),uri varchar(255),publish_status int(2))"""
+    live_movie = """create table live_movie (programid int(11) not null auto_increment primary key,catalogid int(11),chid int(11),program_name varchar(255),date varchar(20),gmtime varchar(25),gwtime varchar(30),start_time varchar(20),timelength varchar(20),uri varchar(255),publish_status int(2))"""
     live_movie_fk = """alter table live_movie add constraint live_catalog_catalogid_fk foreign key(catalogid) references live_catalog (catalogid)"""
 
 

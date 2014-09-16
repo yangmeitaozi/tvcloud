@@ -40,7 +40,7 @@ def get_miliseconds(strtime,date):
 def get_programInfo_from_store(catalogid):
     conn = mysql.connect()
     cursor = conn.cursor()
-    message = """ select chid,catalogid,programid,program_name,start_time,timelength from live_movie where catalogid=%s order by programid""" % catalogid
+    message = """ select chid,catalogid,programid,program_name,start_time,timelength,gwtime from live_movie where catalogid=%s order by programid""" % catalogid
     cursor.execute(message)    
     response = cursor.fetchall()
     conn.close()
@@ -147,8 +147,8 @@ else:
                         plist['programName'] = each[3]
                         plist['startTime'] = each[4]
                         plist['timeLength'] = each[5]
-                        milisec = get_miliseconds(each[4],date[0])
-                        plist['gwtime'] = milisec
+                        #milisec = get_miliseconds(each[4],date[0])
+                        plist['gwtime'] = each[6]
                         ls.append(plist)
                         plist = {}
                     status = 'success'

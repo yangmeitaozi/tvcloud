@@ -85,9 +85,9 @@ conn.close()
 
 #select form order_list and show in tables
 dics = {}
-info = """select live_channel.chid,tvs_channel.chname,live_server.server_ip,live_server.storage_addr,live_status.sname """
+info = """select live_channel.chid,tvs_channel.chname,live_server.live_ip,live_server.storage_addr,live_status.sname """
 info1 = """from tvs_channel,live_channel,live_server,live_status where tvs_channel.chid=live_channel.chid and """
-info2 = """live_status.status=live_channel.statusid and live_server.chid=live_channel.chid order by live_channel.chid """
+info2 = """live_status.status=live_channel.statusid and live_server.chid=live_channel.chid order by tvs_channel.chid ASC """
 
 message = info + info1 + info2
 #print message

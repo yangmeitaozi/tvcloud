@@ -3,12 +3,32 @@
 import mysql
 import urllib2
 import xml.etree.ElementTree as Et
-import dealtime
+
 import cgitb
 cgitb.enable()
-import time
+import time,datetime
 import os
 import logging
+
+def get_miliseconds(strtime,date):
+    datestr = date+' ' + strtime
+    #print 'time ',datestr
+    tmlist = []
+    array = datestr.split(' ')
+    array1 = array[0].split('-')
+    array2 = array[1].split(':')
+    for v in array1:
+        tmlist.append(int(v))
+    for v in array2:
+        tmlist.append(int(v))
+    
+    tmlist.append(0)
+    tmlist.append(0)
+    tmlist.append(0)
+    tmlist.append(0) 
+    if len(tmlist) != 9:
+        return 0
+    return int(time.mktime(tmlist))  
 
 def cur_file_dir():
     return os.path.abspath(os.path.join(os.path.curdir,os.path.pardir,'log'))
@@ -108,9 +128,10 @@ def product():
             adata = []
             ndata = []
             for each_data in datas:                
-                adata.append((row[0],each_data[0],row[1],each_data[1],each_data[2],each_data[3]))
-                ndata.append((each_data[1],row[1]))                
-                message = """insert into live_movie (chid,program_name,catalogid,date,start_time,timelength) values(%s,'%s',%s,'%s','%s',%s)""" % (row[0],each_data[0],row[1],each_data[1],each_data[2],each_data[3])
+                #adata.append((row[0],each_data[0],row[1],each_data[1],each_data[2],each_data[3]))
+                #ndata.append((each_data[1],row[1])) 
+                milisec = get_miliseconds(each_data[2], date)
+                message = """insert into live_movie (chid,program_name,catalogid,date,start_time,timelength,gwtime) values(%s,'%s',%s,'%s','%s',%s,%s)""" % (row[0],each_data[0],row[1],each_data[1],each_data[2],each_data[3],milisec)
                 conn = mysql.connect()
                 cursor = conn.cursor()
                 try:

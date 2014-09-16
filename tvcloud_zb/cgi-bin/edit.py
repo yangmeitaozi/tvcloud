@@ -150,7 +150,7 @@ dics = {}
 info = """select live_channel.chid,tvs_channel.chname,live_server.live_ip,live_url.live_path,live_status.sname """
 info1 = """from tvs_channel,live_channel,live_server,live_url,live_status where tvs_channel.chid=live_channel.chid and """
 info2 = """live_status.statusid=live_channel.statusid and live_url.live_urlid=live_channel.live_urlid and live_url.serverid = live_server.serverid """
-info3 = """and live_url.status=0 order by live_channel.chid """
+info3 = """and live_url.status=0 order by live_channel.chid ASC"""
 
 message = info + info1 + info2+info3
 #print message
@@ -162,7 +162,7 @@ conn = mysql.connect()
 cursor = conn.cursor()
 cursor.execute(message)
 result = cursor.fetchall()
-
+#print result
 #cursor.execute(newms)
 #nres = cursor.fetchall()
 #print 'nres',nres

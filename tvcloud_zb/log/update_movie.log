@@ -1209,3 +1209,116 @@
 2014-09-12 17:36:32,246 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=15&date=2014-09-12
 2014-09-12 17:36:32,667 - root - INFO - get data from tvsou OK
 2014-09-12 17:36:43,589 - root - INFO - update db success
+2014-09-15 14:16:52,480 - root - INFO - execute insert,chid=3
+2014-09-15 14:16:52,585 - root - INFO - execute insert,chid=26
+2014-09-15 14:16:52,651 - root - INFO - execute insert,chid=11
+2014-09-15 14:16:52,743 - root - INFO - execute insert,chid=10
+2014-09-15 14:16:52,826 - root - INFO - execute insert,chid=5
+2014-09-15 14:16:52,911 - root - INFO - execute insert,chid=7
+2014-09-15 14:16:53,012 - root - INFO - execute insert,chid=12
+2014-09-15 14:16:53,095 - root - INFO - execute insert,chid=13
+2014-09-15 14:16:53,178 - root - INFO - execute insert,chid=9
+2014-09-15 14:16:53,262 - root - INFO - execute insert,chid=15
+2014-09-15 14:16:53,384 - root - INFO - execute insert,chid=1
+2014-09-15 14:16:53,503 - root - INFO - execute insert,chid=4
+2014-09-15 14:16:53,645 - root - INFO - execute insert,chid=6
+2014-09-15 14:16:53,746 - root - INFO - execute insert,chid=14
+2014-09-15 14:16:53,865 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1&date=2014-09-15
+2014-09-15 14:16:54,408 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:01,346 - root - INFO - update db success
+2014-09-15 14:17:01,348 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=3&date=2014-09-15
+2014-09-15 14:17:01,964 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:09,688 - root - INFO - update db success
+2014-09-15 14:17:09,690 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=4&date=2014-09-15
+2014-09-15 14:17:10,124 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:16,428 - root - INFO - update db success
+2014-09-15 14:17:16,430 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=5&date=2014-09-15
+2014-09-15 14:17:17,065 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:27,312 - root - INFO - update db success
+2014-09-15 14:17:27,313 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=6&date=2014-09-15
+2014-09-15 14:17:27,694 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:32,072 - root - INFO - update db success
+2014-09-15 14:17:32,072 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=7&date=2014-09-15
+2014-09-15 14:17:32,332 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:38,168 - root - INFO - update db success
+2014-09-15 14:17:38,170 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=9&date=2014-09-15
+2014-09-15 14:17:38,483 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:47,078 - root - INFO - update db success
+2014-09-15 14:17:47,078 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=10&date=2014-09-15
+2014-09-15 14:17:47,367 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:54,144 - root - INFO - update db success
+2014-09-15 14:17:54,144 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=11&date=2014-09-15
+2014-09-15 14:17:54,418 - root - INFO - get data from tvsou OK
+2014-09-15 14:17:59,733 - root - INFO - update db success
+2014-09-15 14:17:59,733 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=12&date=2014-09-15
+2014-09-15 14:18:00,046 - root - INFO - get data from tvsou OK
+2014-09-15 14:18:05,019 - root - INFO - update db success
+2014-09-15 14:18:05,019 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=13&date=2014-09-15
+2014-09-15 14:18:05,309 - root - INFO - get data from tvsou OK
+2014-09-15 14:18:12,619 - root - INFO - update db success
+2014-09-15 14:18:12,619 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=14&date=2014-09-15
+2014-09-15 14:18:13,000 - root - INFO - get data from tvsou OK
+2014-09-15 14:18:20,259 - root - INFO - update db success
+2014-09-15 14:18:20,259 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=15&date=2014-09-15
+2014-09-15 14:18:20,543 - root - INFO - get data from tvsou OK
+2014-09-15 14:18:26,630 - root - INFO - update db success
+2014-09-15 14:18:26,630 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=26&date=2014-09-15
+2014-09-15 14:18:26,970 - root - INFO - get data from tvsou OK
+2014-09-15 14:18:40,227 - root - INFO - update db success
+2014-09-16 09:52:20,369 - root - INFO - execute insert,chid=3
+2014-09-16 09:52:20,494 - root - INFO - execute insert,chid=26
+2014-09-16 09:52:20,637 - root - INFO - execute insert,chid=11
+2014-09-16 09:52:20,753 - root - INFO - execute insert,chid=10
+2014-09-16 09:52:20,852 - root - INFO - execute insert,chid=5
+2014-09-16 09:52:21,046 - root - INFO - execute insert,chid=7
+2014-09-16 09:52:21,144 - root - INFO - execute insert,chid=12
+2014-09-16 09:52:21,279 - root - INFO - execute insert,chid=13
+2014-09-16 09:52:21,354 - root - INFO - execute insert,chid=9
+2014-09-16 09:52:21,446 - root - INFO - execute insert,chid=15
+2014-09-16 09:52:21,555 - root - INFO - execute insert,chid=1
+2014-09-16 09:52:21,664 - root - INFO - execute insert,chid=4
+2014-09-16 09:52:21,789 - root - INFO - execute insert,chid=6
+2014-09-16 09:52:21,888 - root - INFO - execute insert,chid=14
+2014-09-16 09:52:21,983 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=1&date=2014-09-16
+2014-09-16 09:52:25,282 - root - INFO - get data from tvsou OK
+2014-09-16 09:52:33,204 - root - INFO - update db success
+2014-09-16 09:52:33,204 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=3&date=2014-09-16
+2014-09-16 10:00:25,776 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=3&date=2014-09-16
+2014-09-16 10:00:26,961 - root - INFO - get data from tvsou OK
+2014-09-16 10:00:34,969 - root - INFO - update db success
+2014-09-16 10:00:34,970 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=4&date=2014-09-16
+2014-09-16 10:00:35,990 - root - INFO - get data from tvsou OK
+2014-09-16 10:00:42,099 - root - INFO - update db success
+2014-09-16 10:00:42,099 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=5&date=2014-09-16
+2014-09-16 10:00:45,368 - root - INFO - get data from tvsou OK
+2014-09-16 10:00:56,657 - root - INFO - update db success
+2014-09-16 10:00:56,657 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=6&date=2014-09-16
+2014-09-16 10:00:57,716 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:02,555 - root - INFO - update db success
+2014-09-16 10:01:02,556 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=7&date=2014-09-16
+2014-09-16 10:01:02,880 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:09,579 - root - INFO - update db success
+2014-09-16 10:01:09,581 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=9&date=2014-09-16
+2014-09-16 10:01:10,312 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:17,940 - root - INFO - update db success
+2014-09-16 10:01:17,940 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=10&date=2014-09-16
+2014-09-16 10:01:18,513 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:25,565 - root - INFO - update db success
+2014-09-16 10:01:25,566 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=11&date=2014-09-16
+2014-09-16 10:01:26,329 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:33,272 - root - INFO - update db success
+2014-09-16 10:01:33,273 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=12&date=2014-09-16
+2014-09-16 10:01:34,029 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:38,075 - root - INFO - update db success
+2014-09-16 10:01:38,075 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=13&date=2014-09-16
+2014-09-16 10:01:38,855 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:46,592 - root - INFO - update db success
+2014-09-16 10:01:46,592 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=14&date=2014-09-16
+2014-09-16 10:01:47,000 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:53,698 - root - INFO - update db success
+2014-09-16 10:01:53,700 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=15&date=2014-09-16
+2014-09-16 10:01:54,046 - root - INFO - get data from tvsou OK
+2014-09-16 10:01:58,937 - root - INFO - update db success
+2014-09-16 10:01:58,937 - root - INFO - get url:http://hz.tvsou.com/jm/bjxest/data_ajJ9orFapp.asp?id=26&date=2014-09-16
+2014-09-16 10:01:59,443 - root - INFO - get data from tvsou OK
+2014-09-16 10:02:16,851 - root - INFO - update db success
