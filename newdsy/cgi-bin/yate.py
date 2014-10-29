@@ -260,7 +260,9 @@ def generata_data():
         tt_text = tt.read()
     return tt_text
 
-
+'''
+With a simple <a> element to show links
+'''
 def gen_left(the_links):
     fn = BASE_DIR + '/templates/left.html'
     with open(fn) as footf:
@@ -271,9 +273,32 @@ def gen_left(the_links):
     footer = Template(foot_text)
     return(footer.substitute(links=link_string))
 
+'''
+with js,<ul> <li> <a> to show a list of links
+'''
+def gen_left_ul(*args):
+    fn = BASE_DIR + '/templates/left_li.html'
+    with open(fn) as footf:
+        foot_text = footf.read()
+    link_string = ''
+    #sub_strings = ''
+    for item in args:
+        listname = item['listname']
+        elementId = item['elementId']
+        the_links = item['the_links']
+        jsfun = "showHide(this,'"+elementId+"');"
+        link_string += '<li><a href="#" onclick="'+jsfun+'">'+listname+'</a>'
+        link_string += '<ul id="'+elementId+'" style="display: block;">'
+        for key in the_links:
+            link_string += '<li><a href="' + key[1] + '" target="main">' + key[0] + '</a></li>'
+        link_string += '</ul></li>'
+        #sub_strings += link_string
+        #link_string = ''
+    footer = Template(foot_text)
+    return(footer.substitute(links=link_string))
 
 def start_div(classname):
-    return("<div class='"+classname+"'>")
+    return("<div class='"+classname+"' align='center'>")
 
 def end_div():
     return("</div>")

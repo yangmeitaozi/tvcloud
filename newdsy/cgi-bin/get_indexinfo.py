@@ -115,7 +115,7 @@ def json_indexinfo(spid):
             mydic={}
     myjson = {'status':status,'info':info,'message':mylist}
     #return(json.dumps(myjson))
-    spdir = 'spid_'+str(spid)
+    spdir = cur_file_dir() + '/spid_' + str(spid)
     Checkdir(spdir)
     with open(spdir+'/homepage.txt', mode='w+') as fd: 
         print(json.dumps(myjson),file=fd)    

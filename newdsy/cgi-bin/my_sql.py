@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 #coding:utf—8
 
-import configparser
+try:
+    import configparser
+except:
+    import ConfigParser
+    
 import string
 import os,sys
 import mysql.connector

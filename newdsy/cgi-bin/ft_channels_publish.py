@@ -22,6 +22,6 @@ def channelop():
     msgn = """UPDATE tvs_channel set `status`=1 where chid=%s""" % respData[0]
     obj.updateDb(msgn)
     obj.Close()
-    printChannels.channels_offline()    
+    printChannels.channels_offline(False)    
 
 channelop()

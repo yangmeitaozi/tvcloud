@@ -20,8 +20,8 @@ def info_add():
     print(yate.render_guidepage_header('首页内容增加','首页内容增加','op_guidepage_infodeal.py','别名'))   
  
     
-    print(yate.start_div('field'))
-    print("类型:")
+    print(yate.start_div('types'))
+    print("<label for='types'>类型</label>")
     print(yate.start_select_onblur('types','types','setdisabled(this);'))
     print(yate.select_option(items))
     print(yate.end_select())
@@ -29,9 +29,9 @@ def info_add():
     
     print(yate.render_guidepage_form('类型包名','logo地址'))
     
-    print(yate.start_div('field'))
-    print(yate.para('类型选择了APK请在URL栏输入地址，类型选择了频道请在频道下拉框中选一个相应的频道'))
-    print("频道:")
+    print(yate.start_div('channel'))
+    #print(yate.para('类型选择了APK请在URL栏输入地址，类型选择了频道请在频道下拉框中选一个相应的频道'))
+    print("<label for='channel'>频道</label>")
     print(yate.select_id_name('channel','channel'))
     print(yate.select_option(channel_items))
     print(yate.end_select())

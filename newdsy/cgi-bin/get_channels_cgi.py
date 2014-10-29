@@ -69,7 +69,7 @@ def json_channelsinfo(spid):
         alldata.append(datas)
         datas = {}      
     all_channel_info['channellist']=alldata
-    spdir = 'spid_'+str(spid)
+    spdir = cur_file_dir() + '/spid_' + str(spid)
     Checkdir(spdir)
     with open(spdir+'/channelslist.txt', mode='w+') as fd: 
         print(json.dumps(all_channel_info),file=fd)            

@@ -1,12 +1,16 @@
 
 
     
-	<div class="field">
-        URL:<input type="text" id="url" name="url" onBlur="validataNonEmpty(this,document.getElementById('url_help'))" />
+	<div class="field" align="center">
+    	<label for="url">URL</label>
+        <input type="text" id="url" name="url" onBlur="validataNonEmpty(this,document.getElementById('url_help'))" />
         <span id="url_help" class="help"></span>
    	</div>
- 	<input type="submit" id="submit" value=$subvalue onclick="placeOrder(this.form);" /> 
+    <div align="center">
+ 	<input type="submit" id="submit" value=$subvalue onClick="placeOrder(this.form);" /> 
+    </div>
   </form>
+  </div>
   
 <body>
 </body>

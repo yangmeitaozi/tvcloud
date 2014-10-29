@@ -5,11 +5,16 @@
 <title>$title</title>
 <script type="text/javascript" src="../js/check.js" >
 </script>
+<style tyle="text/css">
+.textbox {padding:0 32px 0;width:270px;}
+</style>
 </head>
 <body>
-<h1>$h</h1>
+<center><h1>$h</h1></center>
+ <div class="textbox" align="center">
  <form action=$furl method="post">   
-    <div class="field">
-		$alias:  <input type="text" id="alias" name="alias"  onblur="validataNonEmpty(this,document.getElementById('alias_help'))" />    
-    			<span id="alias_help" class="help"></span>
+    <div class="field" align="center">
+        <label for="alias">$alias</label>
+		<input type="text" id="alias" name="alias"  onblur="validataNonEmpty(this,document.getElementById('alias_help'))" />    
+        <span id="alias_help" class="help"></span>
     </div>
